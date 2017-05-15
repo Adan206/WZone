@@ -3,7 +3,7 @@
 describe('Controller: AboutCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('weatherZoneApp'));
+  beforeEach(module('WeatherZone'));
 
   var AboutCtrl,
     scope;

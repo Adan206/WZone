@@ -2,16 +2,12 @@
 
 /**
  * @ngdoc function
- * @name weatherZoneApp.controller:MainCtrl
+ * @name WeatherZone.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the weatherZoneApp
+ * Controller of the WeatherZone
  */
-angular.module('weatherZoneApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+ angular.module('WeatherZone')
+   .controller('MainCtrl', function ($scope, current, $resource) {
+     $scope.current = current.query();
+   });

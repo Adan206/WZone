@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name weatherZoneApp
+ * @name WeatherZone
  * @description
- * # weatherZoneApp
+ * # WeatherZone
  *
  * Main module of the application.
  */
 angular
-  .module('weatherZoneApp', [
+  .module('WeatherZone', [
     'ngAnimate',
     'ngAria',
     'ngCookies',
